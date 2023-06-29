@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>CSS</title>
+        <style>
+         .cal-container{
+            background-color:rgb(89, 78, 78);
+            margin-bottom:40px;
+            width:300px;
+            margin-left:auto;
+            margin-right:auto;
+            margin-top:50px;
+            padding:3px;
+            border-radius:10px;
+            padding-bottom:50px;
+         }
+         .brand-name{
+            color:aliceblue;
+            font-size:15px;
+            text-align:right;
+            margin-right:20px;
+        }
+         .cal-screen{
+            display:block;
+            margin-left:auto;
+            margin-right:auto;
+            height:45px;
+            width:270px;
+            margin-top:25px;
+            padding:8px;
+            border-radius:3px;
+            font-size:35px;
+            background-color: bisque;
+         }
+
+        .button-row{
+            display:felx;
+            justify-content:space-evenly;
+            margin-top:25px;
+            
+        }
+        .cal-button{
+            font-size:25px;
+            height:49.5px;
+            width:49.5px;
+            border-radius:8px;
+            border:1px solid black;
+            cursor:pointer;
+            margin-left:5.5px;
+            color:black
+
+        }
+        .cal-button:hover{
+            font-size:42px;
+            box-shadow:0 0 1 0.5 white;
+            border:2px solid blue;
+            border-radius:9px;
+            transition:0.5s;
+            
+        }
+        .bg-tomato{
+            background-color:rgb(191, 232, 239);
+            color:aliceblue;
+            color: black;
+            font-size: 25px;
+        } 
+        .small-screen-container{
+           display:flex;
+           justify-content:end;
+           margin-right:14px;
+           margin-top:5px;
+        }
+        .small-screen{
+            height:15px;
+            width:15px;
+            background-color:antiquewhite;
+            border:1px solid black;
+        }
+        </style>
+    </head>
+    <body>
+        <div class="cal-container">
+            <P class="brand-name">CASIO</P>
+            <input text="text"   class="cal-screen"/>
+            <div class="small-screen-container">
+              <div class="small-screen"></div>
+              <div class="small-screen"></div>
+              <div class="small-screen"></div>
+            </div>
+            
+            <div class="button-row">
+                <button class="cal-button">1</button>
+                <button class="cal-button">2</button>
+                <button class="cal-button">3</button>
+                <button class="cal-button bg-tomato">(</button>
+                <button class="cal-button bg-tomato">)</button>
+
+
+                <div class="button-row">
+                    <button class="cal-button">4</button>
+                    <button class="cal-button">5</button>
+                    <button class="cal-button">6</button>
+                    <button class="cal-button bg-tomato">-</button>
+                    <button class="cal-button bg-tomato">+</button>
+
+
+               <div class="button-row">
+                    <button class="cal-button">7</button>
+                    <button class="cal-button">8</button>
+                    <button class="cal-button">9</button>
+                    <button class="cal-button bg-tomato">x</button>
+                    <button class="cal-button bg-tomato">/</button>
+
+
+              <div class="button-row">
+                    <button class="cal-button bg-tomato">.</button>
+                    <button class="cal-button ">0</button>
+                    <button class="cal-button bg-tomato">^</button>
+                    <button class="cal-button bg-tomato">%</button>
+                    <button class="cal-button bg-tomato">=</button>
+
+                    </div>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+    </body>
+</html>
